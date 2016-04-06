@@ -1,0 +1,9 @@
+img.card {
+    display: none;
+    transform: translate(200px, -100px);
+}
+
+span:hover img.card {
+    display: block;
+    position: absolute;
+}

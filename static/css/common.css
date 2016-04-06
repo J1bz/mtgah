@@ -1,0 +1,43 @@
+body {
+    background-color: #002b36;
+    color: #839496;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #073642;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #eee8d5;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: #eee8d5;
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #eee8d5;
+}
+
+.label {
+    display: inline-block;
+}
+
+.label-primary {
+    background-color: #002b36;
+    color: #839496;
+}
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #586e75;
+    height: auto;
+    font-size: 14pt;
+}
