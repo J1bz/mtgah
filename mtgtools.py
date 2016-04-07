@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from json import loads
 from urllib.parse import quote
 
@@ -76,7 +74,7 @@ _RARITY_TABLE = {
 
 
 def get_mtgjson(file_='mtgjson/AllSets.json'):
-    with open(file_, 'r') as file_data:
+    with open(file_, 'r', encoding='utf-8') as file_data:
         mtgjson = loads(file_data.read())
 
     return mtgjson

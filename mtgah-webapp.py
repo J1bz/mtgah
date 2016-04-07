@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 from os.path import join
 from bottle import get, route, run, template, static_file, request
